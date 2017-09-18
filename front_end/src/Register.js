@@ -236,7 +236,7 @@ class Register extends Component {
               </FormGroup>
             </Panel>
             <Button bsStyle="success" type="submit">
-              Next
+              Register
             </Button>
           </Form>
           )}
