@@ -19,7 +19,7 @@ Open [http://localhost:8081](http://localhost:8081) in postman or any rest clien
 Currently backend is using file system to save patient info. Further development should use db as backend.
 
 
-##Note:
+## Note:
 During development, I encountered a few issues: 
 1. Certificate validation issue for calling external REST api
 2. CORS issue on ReactJS UI, which is the main reason I put eligibility checking into services.
