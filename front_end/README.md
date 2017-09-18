@@ -1,24 +1,21 @@
-## Available Scripts
+## Registration App
+The client is a web app developed using ReactJS and React-bootstrap components.
+The client accepts patients registration with basic info: first name, last name, DOB, phone,
+insurance and insurance id.
+
+After user enters all the info and hit Next, a status page will show the registration status.
+
+## Run application
+### `npm install`
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Further development
+Current I only use single component for the registration process. Further development 
+should separate it into two components, one is the registration form, the other is 
+registration status. This new refactor should be accomplished by using React prop and router.
