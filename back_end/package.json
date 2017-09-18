@@ -1,0 +1,28 @@
+{
+  "name": "user_api",
+  "version": "1.0.0",
+  "description": "Save and retrieve user data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "emptyForNow"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Weijie Xu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
