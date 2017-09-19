@@ -10,6 +10,8 @@
     "react-bootstrap-date-picker": "^5.1.0",
     "react-bootstrap-maskedinput": "^0.3.0",
     "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
     "react-tap-event-plugin": "^2.0.1"
   },

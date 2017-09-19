@@ -15,7 +15,7 @@ In the project directory, you can run:
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-## Further development
-Current I only use single component for the registration process. Further development 
-should separate it into two components, one is the registration form, the other is 
-registration status. This new refactor should be accomplished by using React prop and router.
+## Part2 development
+In branch part1 I only use single component for the registration process. Further development 
+separated it into two components, one is the registration form, the other is 
+registration status. This new refactor was accomplished by using React props and router.
