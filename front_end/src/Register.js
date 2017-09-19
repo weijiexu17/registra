@@ -31,7 +31,7 @@ class Register extends Component {
 
   parseDate(input) {
     const split = input.split('T');
-    const time = split[1]
+    //const time = split[1]
     const day = split[0];
 
     return day;
@@ -131,7 +131,6 @@ class Register extends Component {
           console.log(response.data);
 
           if(response.data){
-            var eligibility = response.data;
             var insActive = response.data.active?response.data.active:false;
             var copay = response.data.copay?response.data.copay:null;
             console.log("Is Active: " + insActive);
