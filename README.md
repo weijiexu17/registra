@@ -7,10 +7,10 @@ and registers the patient.
 
 ### Run application
 
-Start REST api server:
-    Go to back_end and run node server.js
-Start web client:
-    Go to front_end, run npm start
+Start REST api server:<br>
+    <li>Go to back_end and run node server.js</li>
+Start web client:<br>
+    <li>Go to front_end, run npm start</li>
     
 
 ### Accept the web
